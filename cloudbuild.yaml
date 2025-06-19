@@ -6,3 +6,5 @@ steps:
     args:
       - apply
       - -auto-approve
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
