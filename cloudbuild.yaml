@@ -1,0 +1,8 @@
+steps:
+  - name: hashicorp/terraform:light
+    args:
+      - init
+  - name: hashicorp/terraform:light
+    args:
+      - apply
+      - -auto-approve
